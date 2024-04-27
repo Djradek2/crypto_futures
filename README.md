@@ -2,4 +2,4 @@
 
 archive: archive.ph/mnVSn
 
-![WebsiteSnapshot](https://github.com/Djradek2/crypto_futures/assets/112021889/5dc4a5bf-8071-4afd-87dd-a88503378c29)
+![WebsiteSnapshot](https://github.com/Djradek2/crypto_futures/assets/112021889/477d69af-3a6d-41c1-8333-45cd895b0ce9)

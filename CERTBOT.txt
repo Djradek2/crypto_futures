@@ -1,0 +1,14 @@
+sudo certbot certonly --manual --preferred-challenges dns
+
+sudo cp /etc/letsencrypt/live/cryptofutures.cz/cert.pem /home/ec2-user/amazonVersion/serverDB
+sudo cp /etc/letsencrypt/live/cryptofutures.cz/privkey.pem /home/ec2-user/amazonVersion/serverDB
+sudo cp /etc/letsencrypt/live/cryptofutures.cz/fullchain.pem /home/ec2-user/amazonVersion/serverDB
+
+sudo certbot --nginx
+sudo systemctl restart nginx
+
+sudo pkill npm
+sudo pkill node
+
+npm run preview
+sudo node server.js
